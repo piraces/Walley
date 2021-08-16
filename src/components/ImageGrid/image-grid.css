@@ -1,8 +1,8 @@
-.grid-container{
-    margin: 10px;
+.grid-container {
+  margin: 10px;
 }
 
-.image-grid{
+.image-grid {
     display: grid;
     grid-gap: 2px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -11,7 +11,7 @@
 
 
 .image {
-    background: #fff;
+    background: rgba(2,0,36,1);
     padding: 3px;
     border-radius: 3px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -30,14 +30,10 @@
     object-fit: cover;
   }
   
-  .image:nth-child(2n) {
-    grid-column-end: span 2;
-  }
-  
 
   @media only screen and (max-width: 700px){
     .grid-container{
-      margin: 130px 10px 10px 10px;
+      margin: 30px 10px 10px 10px;
     }
     .image:nth-child(3n) {
       grid-row-end: span 2;

@@ -1,16 +1,6 @@
-# Unsplashy | Free Stock Images React Application 
+# Walley | Free Stock Images React Application 
 
-<img src="https://github.com/PrathmeshSadake/unsplashy/blob/master/Readme%20Images/capture.PNG" width="100%" />
-<img src="https://github.com/PrathmeshSadake/unsplashy/blob/master/Readme%20Images/mobile.png" width="50%" />
-
-<hr>
-
-- When you clone this repository, Make sure you change the API key.
-- Just replace my API key with yours in below folder.
-```
-src/api/unsplashAccessKey.js 
-```
-[Get your API key here](https://unsplash.com/developers)
+Work in progress...
 
 ## Available Scripts
 

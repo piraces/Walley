@@ -1,33 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&display=swap');
 
-.container{
-    margin: -400px 300px 0 350px;
+.container {
+    text-align: center;
+    height: 8rem;
+    padding-top: 1rem;
 }
 
-.inner-container{
-    margin: 10px 185px;
-}
-
-.heading{
+.heading {
     word-wrap: break-word;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
     color: whitesmoke;
 }
 
 
 @media only screen and (max-width: 600px) {
     .container{
-        margin: -275px 5px 10px 10px;
+        height: 5rem;
     }
-    .inner-container{
-        margin: 10px 15px;
-    }
+
     .heading{
-        font-size: 25px;
+        font-size: 3rem;
     }
-    
-    .search-bar{
-        width: 80%;
-    }
-  }
+}

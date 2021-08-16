@@ -8,3 +8,7 @@
     width: 100%;
     overflow-x: hidden;
   }
+
+  body > div {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,45,50,1) 35%, rgba(9,35,41,1) 100%);
+  }
