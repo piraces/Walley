@@ -33,38 +33,57 @@
   .image-footer {
     height: 15%;
     color: whitesmoke;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 65% 35%;
-    gap: 10px;
+    padding: 0.8rem;
+    display: flex;
+    flex: 0.6 0.4;
     align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
   }
   
   .image-footer-title {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 65%;
+  }
+
+  .image-footer-title-link {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     font-weight: bold;
     color: whitesmoke;
-    height: 48px;
+    height: 100%;
+    width: 100%;
   }
 
-  .image-footer-title:hover {
+  .image-footer-title-link:hover {
     color: white;
   }
 
   .image-footer-user {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+  }
+
+  .image-footer-user-link {
     text-overflow: ellipsis;
-    text-align: right;
     white-space: nowrap;
     overflow: hidden;
     color: whitesmoke;
-    height: 48px;
+    height: 100%;
+    width: 100%;
   }
 
-  .image-footer-user:hover {
+  .image-footer-user-link:hover {
     color: white;
   }
+
   @media only screen and (max-width: 700px){
     .grid-container{
       margin: 30px 10px 10px 10px;

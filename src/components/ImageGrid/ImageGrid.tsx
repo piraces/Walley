@@ -31,8 +31,12 @@ class ImageGrid extends React.Component<ImageGridProps>{
                     title={`"${image.title}" by ${image.author} in ${image.subreddit} (Score: ${image.score})`} />
                 </a>
                 <div className="image-footer">
-                  <a href={image.permalink} className="image-footer-title" target="_blank" rel="noopener noreferrer">{`${image.title}`}</a>
-                  <a href={`https://www.reddit.com/user/${image.author}`} className="image-footer-user" target="_blank" rel="noopener noreferrer">{`u/${image.author}`}</a>
+                  <div className="image-footer-title">
+                    <a href={image.permalink} className="image-footer-title-link" target="_blank" rel="noopener noreferrer">{`${image.title}`}</a>
+                  </div>
+                  <div className="image-footer-user">
+                    <a href={`https://www.reddit.com/user/${image.author}`} className="image-footer-user-link" target="_blank" rel="noopener noreferrer">{`u/${image.author}`}</a>
+                  </div>
                 </div>
               </div>
               ))}
