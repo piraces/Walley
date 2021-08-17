@@ -209,6 +209,7 @@ function InputForm() {
                 </form>
                 <form>
                     <Dropdown
+                        id="subredditSelector"
                         className="form"
                         placeholder={subreddit}
                         search
