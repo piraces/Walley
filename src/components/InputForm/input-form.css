@@ -2,8 +2,13 @@
 
 .form {
   width: 50%;
+  margin-top: 1rem;
   margin-bottom: -50px;
   margin-left: -5rem;
+}
+
+.license-container {
+  padding: 1.5rem;
 }
 
 .license {

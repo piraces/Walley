@@ -56,7 +56,7 @@ export interface Resolution {
 export interface Variants {
 }
 
-export interface Image {
+export interface ImagePreview {
     source: Source;
     resolutions: Resolution[];
     variants: Variants;
@@ -64,7 +64,7 @@ export interface Image {
 }
 
 export interface Preview {
-    images: Image[];
+    images: ImagePreview[];
     enabled: boolean;
 }
 
@@ -134,7 +134,7 @@ export interface Media {
     type: string;
 }
 
-export interface Data2 {
+export interface PostData {
     approved_at_utc?: any;
     subreddit: string;
     selftext: string;
@@ -248,7 +248,7 @@ export interface Data2 {
 
 export interface Child {
     kind: string;
-    data: Data2;
+    data: PostData;
 }
 
 export interface Data {

@@ -1,6 +1,23 @@
-# Walley | Free Stock Images React Application 
+# Walley | High Quality Wallpapers from Reddit
 
-Work in progress...
+![Desktop view](./desktop.png)
+
+**Walley** is a responsive React App that scrapes backgrounds/wallpapers subreddits from [Reddit](https://reddit.com) and allows the user to search and filter the results.
+
+
+## Features
+
+- Search for wallpapers
+- Select different known wallpapers subreddits
+- Input your own subreddit to get images from
+- Infinite scroll with low resolution images to avoid large data download
+- Click to open in new tab to download it directly
+- Title and author (user) attributions
+
+
+**Use it now:** [walley.us.to](https://walley.us.to/)
+
+# Development
 
 ## Available Scripts
 
