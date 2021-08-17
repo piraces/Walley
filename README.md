@@ -1,5 +1,5 @@
 # Walley | High Quality Wallpapers from Reddit
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1df4f400-98d3-42b4-b16d-9aefa1a0a976/deploy-status)](https://app.netlify.com/sites/zealous-panini-cc2cb8/deploys)
 ![Desktop view](./desktop.png)
 
 **Walley** is a responsive React App that scrapes backgrounds/wallpapers subreddits from [Reddit](https://reddit.com) and allows the user to search and filter the results.
