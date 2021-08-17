@@ -34,16 +34,19 @@
     height: 15%;
     color: whitesmoke;
     padding: 1rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 10px;
+    align-content: center;
   }
   
   .image-footer-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     font-weight: bold;
     color: whitesmoke;
     height: 48px;
-    width: 48px;
   }
 
   .image-footer-title:hover {
@@ -51,9 +54,12 @@
   }
 
   .image-footer-user {
+    text-overflow: ellipsis;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
     color: whitesmoke;
     height: 48px;
-    width: 48px;
   }
 
   .image-footer-user:hover {

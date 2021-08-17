@@ -32,7 +32,6 @@ class ImageGrid extends React.Component<ImageGridProps>{
                 </a>
                 <div className="image-footer">
                   <a href={image.permalink} className="image-footer-title" target="_blank" rel="noopener noreferrer">{`${image.title}`}</a>
-                  <br/>
                   <a href={`https://www.reddit.com/user/${image.author}`} className="image-footer-user" target="_blank" rel="noopener noreferrer">{`u/${image.author}`}</a>
                 </div>
               </div>
